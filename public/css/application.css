@@ -5,5 +5,15 @@
   border: 1px dotted black;
 }
 th {
-  text-align: left;
+  text-align: center;
+}
+
+.racer_table td {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+}
+
+.racer_table td.active {
+  background-color: black;
 }
